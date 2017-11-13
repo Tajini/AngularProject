@@ -8,10 +8,14 @@ constructor(
 
 export class User{
     constructor(
-    name: string,
+    nickname: string,
+    password: string,
+    birthdate: string,
     accountbasic: number,
     livretA: number,
     accountreturn: 1000,
+    connected: boolean,
+    danslerouge: boolean,
 
 
     ){}
